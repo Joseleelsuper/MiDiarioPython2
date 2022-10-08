@@ -7,6 +7,8 @@
 def datos(lista, personas, x):
     for i in range(personas):
         print(f"{lista[i]} cumplirá un total de {x - lista[i+personas]} años este curso.")
+        
+    exit()
 
 def main():
     x = int(input("Ingresa el año del curso: "))
